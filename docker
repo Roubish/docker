@@ -17,5 +17,5 @@ RUN pip install pyyaml
 WORKDIR /opt/nvidia/deepstream/deepstream/sources/
 COPY . .
 RUN bash ./bind.sh
-WORKDIR /opt/nvidia/deepstream/deepstream-6.1/sources/deepstream_python_apps/apps/mahi_logi
+WORKDIR /opt/nvidia/deepstream/deepstream-6.1/sources/deepstream_python_apps/apps/deepstream-test1
 CMD echo "runing program"
